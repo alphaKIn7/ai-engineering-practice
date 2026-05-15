@@ -17,3 +17,6 @@ __pycache__/
 #Database
 *.db
 *.db-journal
+
+#md files
+*.md
