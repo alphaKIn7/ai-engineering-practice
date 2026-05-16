@@ -11,5 +11,8 @@ dependencies = [
     "ipykernel>=7.2.0",
     "openai>=2.36.0",
     "python-dotenv>=1.2.2",
+    "qdrant-client>=1.18.0",
+    "sentence-transformers>=5.5.0",
     "sqlmodel>=0.0.38",
+    "typer>=0.25.1",
 ]

@@ -19,4 +19,15 @@ __pycache__/
 *.db-journal
 
 #md files
-*.md
+Phase 1/phase1_tutor.md
+Phase 1/CLAUDE.md
+Phase 2/phase2_tutor.md
+Phase 2/CLAUDE.md
+Phase 3/phase3_tutor.md
+Phase 3/CLAUDE.md
+ML Sprint/CLAUDE.md
+interview_question_bank.md
+Phase 2.5/CLAUDE.md
+Phase 2.5/phase2.5_tutor.md
+
+
