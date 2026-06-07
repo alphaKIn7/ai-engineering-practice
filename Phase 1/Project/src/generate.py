@@ -2,7 +2,7 @@ import os
 
 from dotenv import load_dotenv
 from openai import OpenAI
-from models import ClaimVerdict, RetrievedChunk
+from models import ClaimVerdict, GenerationResult, RetrievedChunk
 
 load_dotenv()
 
@@ -33,7 +33,7 @@ def _format_chunks(chunks: list[RetrievedChunk]) -> str:
     return "\n".join(parts)
 
 
-def verify_claim(claim: str, chunks: list[RetrievedChunk]) -> ClaimVerdict:
+def verify_claim(claim: str, chunks: list[RetrievedChunk]) -> GenerationResult:
     user_message = f"Claim: {claim}\n\nEvidence:\n{_format_chunks(chunks)}"
 
     response = openai_client.responses.parse(
@@ -44,10 +44,19 @@ def verify_claim(claim: str, chunks: list[RetrievedChunk]) -> ClaimVerdict:
         text_format=ClaimVerdict,
     )
 
-    result = response.output_parsed
-    if result is None:
+    verdict = response.output_parsed
+    if verdict is None:
         raise ValueError("LLM returned no structured output (refusal or parse failure)")
-    return result
+
+    usage = response.usage
+    if usage is None:
+        raise ValueError("OpenAI response missing usage data")
+
+    return GenerationResult(
+        verdict=verdict,
+        input_tokens=usage.input_tokens,
+        output_tokens=usage.output_tokens,
+    )
 
 
 if __name__ == "__main__":
@@ -55,9 +64,10 @@ if __name__ == "__main__":
 
     claim = "Active Ly49Q prevents neutrophil polarization"
     chunks = retrieve_documents(claim)
-    verdict = verify_claim(claim, chunks)
+    result = verify_claim(claim, chunks)
 
-    print(f"Claim   : {claim}")
-    print(f"Verdict : {verdict.verdict}")
-    print(f"Chunks  : {verdict.supporting_chunks}")
-    print(f"Reasoning: {verdict.reasoning}")
+    print(f"Claim    : {claim}")
+    print(f"Verdict  : {result.verdict.verdict}")
+    print(f"Chunks   : {result.verdict.supporting_chunks}")
+    print(f"Reasoning: {result.verdict.reasoning}")
+    print(f"Tokens   : {result.input_tokens} in / {result.output_tokens} out")
