@@ -53,6 +53,48 @@ def log_verification(
         session.commit()
 
 
+class EvalRun(SQLModel, table=True):
+    id: int | None = Field(default=None, primary_key=True)
+    run_id: str
+    timestamp: str
+    embedding_model: str
+    top_k: int
+    num_queries: int
+    recall_at_5: float
+    recall_at_10: float
+    mrr: float
+    wall_time_seconds: float
+    notes: str
+
+
+def log_eval_run(
+    run_id: str,
+    embedding_model: str,
+    top_k: int,
+    num_queries: int,
+    recall_at_5: float,
+    recall_at_10: float,
+    mrr: float,
+    wall_time_seconds: float,
+    notes: str,
+) -> None:
+    row = EvalRun(
+        run_id=run_id,
+        timestamp=datetime.now(timezone.utc).isoformat(),
+        embedding_model=embedding_model,
+        top_k=top_k,
+        num_queries=num_queries,
+        recall_at_5=recall_at_5,
+        recall_at_10=recall_at_10,
+        mrr=mrr,
+        wall_time_seconds=wall_time_seconds,
+        notes=notes,
+    )
+    with Session(engine) as session:
+        session.add(row)
+        session.commit()
+
+
 if __name__ == "__main__":
     init_db()
     log_verification(
