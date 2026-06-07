@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What conditions must be met for automated decision-making and profiling based on special categories of personal data to be allowed?",
+    "gold_chunk_id": 228,
+    "gold_chunk_text": ". Automated decision-making and profiling based on special categories of personal data should be allowed only under specific conditions."
+  },
+  {
+    "question": "What does the GDPR state about the processing of personal data by courts and other judicial authorities?",
+    "gold_chunk_id": 51,
+    "gold_chunk_text": "While this Regulation applies, inter alia, to the activities of courts and other judicial authorities, Union or Member State law could specify the processing operations and processing procedures in re"
+  },
+  {
+    "question": "What is the definition of a 'recipient' under the GDPR?",
+    "gold_chunk_id": 563,
+    "gold_chunk_text": "\u2018recipient\u2019 means a natural or legal person, public authority, agency or another body, to which the personal data are disclosed, whether a third party or not"
+  },
+  {
+    "question": "What safeguards must be in place when processing personal data for archiving, scientific, historical research, or statistical purposes according to the GDPR?",
+    "gold_chunk_id": 501,
+    "gold_chunk_text": "The processing of personal data for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes should be subject to appropriate safeguards for the ri"
+  },
+  {
+    "question": "Under what circumstances are national courts required to request a preliminary ruling from the Court of Justice regarding the interpretation of Union law?",
+    "gold_chunk_id": 457,
+    "gold_chunk_text": ". In the context of judicial remedies relating to the application of this Regulation, national courts which consider a decision on the question necessary to enable them to give judgment, may, or in th"
+  },
+  {
+    "question": "What factors should be considered when setting rules for the notification of personal data breaches?",
+    "gold_chunk_id": 285,
+    "gold_chunk_text": "In setting detailed rules concerning the format and procedures applicable to the notification of personal data breaches, due consideration should be given to the circumstances of that breach, includin"
+  },
+  {
+    "question": "How should the restriction of personal data processing be communicated within the system?",
+    "gold_chunk_id": 209,
+    "gold_chunk_text": ". The fact that the processing of personal data is restricted should be clearly indicated in the system."
+  },
+  {
+    "question": "What type of language should be used in information and communication addressed to children according to the GDPR?",
+    "gold_chunk_id": 178,
+    "gold_chunk_text": ". Given that children merit specific protection, any information and communication, where processing is addressed to a child, should be in such a clear and plain language that the child can easily und"
+  },
+  {
+    "question": "How long do authorisations by a Member State or supervisory authority remain valid under the GDPR?",
+    "gold_chunk_id": 864,
+    "gold_chunk_text": "5.   Authorisations by a Member State or supervisory authority on the basis of Article 26(2) of Directive 95/46/EC shall remain valid until amended, replaced or repealed, if necessary, by that supervi"
+  },
+  {
+    "question": "Does the GDPR apply to a controller not established in the Union if they operate within a Member State's diplomatic mission or consular post?",
+    "gold_chunk_id": 65,
+    "gold_chunk_text": "(25)\n\nWhere Member State law applies by virtue of public international law, this Regulation should also apply to a controller not established in the Union, such as in a Member State's diplomatic missi"
+  },
+  {
+    "question": "What indicates that a controller is intending to offer goods or services to data subjects in the Union?",
+    "gold_chunk_id": 61,
+    "gold_chunk_text": "in that other language, or the mentioning of customers or users who are in the Union, may make it apparent that the controller envisages offering goods or services to data subjects in the Union."
+  },
+  {
+    "question": "What factors should be considered when processing data for archiving, research, or statistical purposes according to the GDPR?",
+    "gold_chunk_id": 191,
+    "gold_chunk_text": ". The latter could in particular be the case where processing is carried out for archiving purposes in the public interest, scientific or historical research purposes or statistical purposes. In that "
+  },
+  {
+    "question": "What rights can a compliance officer exercise on behalf of data subjects according to the GDPR?",
+    "gold_chunk_id": 447,
+    "gold_chunk_text": "the right to a judicial remedy on behalf of data subjects or, if provided for in Member State law, exercise the right to receive compensation on behalf of data subjects"
+  },
+  {
+    "question": "What is the purpose of requiring data protection by design and by default according to the GDPR?",
+    "gold_chunk_id": 476,
+    "gold_chunk_text": "(150)"
+  },
+  {
+    "question": "What right does a data subject have if the supervisory authority does not handle their complaint or fails to inform them within three months?",
+    "gold_chunk_id": 1034,
+    "gold_chunk_text": "2.   Without prejudice to any other administrative or non-judicial remedy, each data subject shall have the right to a an effective judicial remedy where the supervisory authority which is competent p"
+  },
+  {
+    "question": "How does the GDPR relate to the liability rules for intermediary service providers as outlined in Directive 2000/31/EC?",
+    "gold_chunk_id": 54,
+    "gold_chunk_text": "(21)\n\nThis Regulation is without prejudice to the application of Directive 2000/31/EC of the European Parliament and of the Council (8), in particular of the liability rules of intermediary service pr"
+  },
+  {
+    "question": "What should the lead supervisory authority decide after being informed by a supervisory authority about a matter?",
+    "gold_chunk_id": 407,
+    "gold_chunk_text": ". In such cases, the supervisory authority should inform the lead supervisory authority without delay about the matter. After being informed, the lead supervisory authority should decide, whether it w"
+  },
+  {
+    "question": "What types of instruments can provide the appropriate safeguards without requiring specific authorization from a supervisory authority?",
+    "gold_chunk_id": 859,
+    "gold_chunk_text": "2.   The appropriate safeguards referred to in paragraph 1 may be provided for, without requiring any specific authorisation from a supervisory authority, by:\n\n(a)\n\na legally binding and enforceable i"
+  },
+  {
+    "question": "What is the time frame within which supervisory authorities must bring an action for annulment of decisions of the Board after being notified?",
+    "gold_chunk_id": 451,
+    "gold_chunk_text": "Any natural or legal person has the right to bring an action for annulment of decisions of the Board before the Court of Justice under the conditions provided for in Article 263 TFEU. As addressees of"
+  },
+  {
+    "question": "What must a compliance officer do after receiving a complaint from a data subject?",
+    "gold_chunk_id": 919,
+    "gold_chunk_text": "(f)\n\nhandle complaints lodged by a data subject, or by a body, organisation or association in accordance with Article 80, and investigate, to the extent appropriate, the subject matter of the complain"
+  },
+  {
+    "question": "What types of characteristics are considered when defining biometric data under the GDPR?",
+    "gold_chunk_id": 569,
+    "gold_chunk_text": "(14)\n\n\u2018biometric data\u2019 means personal data resulting from specific technical processing relating to the physical, physiological or behavioural characteristics of a natural person, which allow or confi"
+  },
+  {
+    "question": "How does the GDPR aim to ensure the protection of personal data during its transfer to third countries and international organizations?",
+    "gold_chunk_id": 13,
+    "gold_chunk_text": ". Technology has transformed both the economy and social life, and should further facilitate the free flow of personal data within the Union and the transfer to third countries and international organ"
+  },
+  {
+    "question": "Under what circumstances can transfers of personal data to a third country or international organisation occur without further authorisation?",
+    "gold_chunk_id": 326,
+    "gold_chunk_text": ". In such cases, transfers of personal data to that third country or international organisation may take place without the need to obtain any further authorisation. The Commission may also decide, hav"
+  },
+  {
+    "question": "What must binding corporate rules be in order to be approved by the competent supervisory authority?",
+    "gold_chunk_id": 865,
+    "gold_chunk_text": "Article 47\n\nBinding corporate rules\n\n1.   The competent supervisory authority shall approve binding corporate rules in accordance with the consistency mechanism set out in Article 63, provided that th"
+  },
+  {
+    "question": "What factors must the controller consider when implementing technical and organizational measures for data processing?",
+    "gold_chunk_id": 696,
+    "gold_chunk_text": "Article 24\n\nResponsibility of the controller\n\n1.   Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood and severity for the rights and "
+  },
+  {
+    "question": "What challenges and concerns have arisen due to the increase in flows of personal data to and from countries outside the Union?",
+    "gold_chunk_id": 318,
+    "gold_chunk_text": "Flows of personal data to and from countries outside the Union and international organisations are necessary for the expansion of international trade and international cooperation. The increase in suc"
+  },
+  {
+    "question": "Who provides the secretariat to assist the Board as outlined in the GDPR?",
+    "gold_chunk_id": 440,
+    "gold_chunk_text": "(140)\n\nThe Board should be assisted by a secretariat provided by the European Data Protection Supervisor. The staff of the European Data Protection Supervisor involved in carrying out the tasks confer"
+  },
+  {
+    "question": "What conditions must be met for Union or Member State law to restrict the obligations and rights provided for in Articles 12 to 22 and Article 34 of the GDPR?",
+    "gold_chunk_id": 689,
+    "gold_chunk_text": ".   Union or Member State law to which the data controller or processor is subject may restrict by way of a legislative measure the scope of the obligations and rights provided for in Articles 12 to 2"
+  },
+  {
+    "question": "What obligations do data controllers have regarding the processing of personal data?",
+    "gold_chunk_id": 189,
+    "gold_chunk_text": "(62)"
+  },
+  {
+    "question": "What types of processing operations necessitate regular and systematic monitoring of data subjects on a large scale according to the GDPR?",
+    "gold_chunk_id": 778,
+    "gold_chunk_text": "(b)\n\nthe core activities of the controller or the processor consist of processing operations which, by virtue of their nature, their scope and/or their purposes, require regular and systematic monitor"
+  }
+]

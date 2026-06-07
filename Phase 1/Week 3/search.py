@@ -46,6 +46,8 @@ def query(search_query: str):
         limit=5
     )    
     for point in search_result.points:
+        if point.payload is None:
+            continue
         print(point.score, point.payload["filename"])    
         
 if __name__ == "__main__":

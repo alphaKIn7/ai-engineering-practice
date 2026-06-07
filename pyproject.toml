@@ -7,9 +7,11 @@ requires-python = ">=3.12"
 dependencies = [
     "aiofiles>=25.1.0",
     "anthropic>=0.102.0",
+    "datasets>=4.8.5",
     "fastapi[standard]>=0.136.1",
     "ipykernel>=7.2.0",
     "langchain-text-splitters>=1.1.2",
+    "markdown-pdf>=1.13.1",
     "openai>=2.36.0",
     "pypdf>=6.11.0",
     "python-dotenv>=1.2.2",
@@ -18,3 +20,6 @@ dependencies = [
     "sqlmodel>=0.0.38",
     "typer>=0.25.1",
 ]
+
+[tool.pyright]
+extraPaths = ["Phase 1/Project/src"]
